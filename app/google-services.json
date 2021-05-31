@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444892020465",
+    "project_id": "personalcanteen",
+    "storage_bucket": "personalcanteen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444892020465:android:b0b96c4a12bc1af796f350",
+        "android_client_info": {
+          "package_name": "gcit.edu.personalcanteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444892020465-15dc2iqp4s7k6t5nbp517pc4qka2jjap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZq527RC5rYM_zhZQi2rSBVvqLoOTl1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444892020465-15dc2iqp4s7k6t5nbp517pc4qka2jjap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

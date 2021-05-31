@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VarifyNum"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:onClick="close"
+            android:src="@drawable/close" />
+
+        <TextView
+
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_black"
+            android:paddingLeft="80dp"
+            android:text="@string/codetext"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="100sp" />
+
+        <TextView
+
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_black"
+            android:paddingLeft="58dp"
+            android:paddingTop="15dp"
+            android:text="@string/verificationtext"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_black"
+            android:paddingLeft="15dp"
+            android:paddingTop="25dp"
+            android:text="@string/description"
+            android:textAlignment="center"
+
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:hint="######"
+            android:layout_marginTop="30dp"
+            android:id="@+id/verification_code_by_user"
+            android:inputType="number"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:background="@drawable/blackboder"
+           android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"/>
+
+
+
+        <Button
+            android:layout_width="349dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/black"
+            android:id="@+id/verify_btn"
+            android:text="Verify Code"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_marginTop="30dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
