@@ -1,2 +1,3 @@
 # CanteenCalc
-This project uses android studio for making a canteen calculator software used by mobiles running android operating system
+This project uses Android Studio to make a canteen calculator software used by mobiles running Android operating system
+
