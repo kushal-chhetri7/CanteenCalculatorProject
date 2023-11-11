@@ -3,3 +3,4 @@ This project uses Android Studio to make a canteen calculator software used by m
 
 Technologies Used
 - XML
+- JAVA
