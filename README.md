@@ -6,5 +6,5 @@ Technologies Used
 - XML
 - JAVA
 - OTP Verification
-- Dynamic Calculation
+- Dynamic Calculation 
    
