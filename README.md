@@ -5,7 +5,7 @@ It contains the Mobile SMS OTP verification of the users.
 Technologies Used
 - XML
 - JAVA
-- OTP Verification 
+- OTP Verification  
 - Dynamic Calculation      
        
      
